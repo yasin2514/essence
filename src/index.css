@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.btn-primary{
+    @apply bg-[#194e8a] hover:bg-blue-700 text-white font-bold py-2 px-4
+}

@@ -1,5 +1,6 @@
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import listLogo from "../../assets/award.png";
+import addImg from "../../assets/add.jpg";
 const Banner = () => {
   const sideBar = [
     {
@@ -74,13 +75,15 @@ const Banner = () => {
       style={{ gridTemplateColumns: "1fr 3fr 1.4fr", gap: "1rem" }}
     >
       {/* left sidebar */}
-      <aside className="border p-3 space-y-3 bg-white">
+      <aside className=" p-4 space-y-4 bg-white">
         {sideBar?.map((item, index) => (
           <div className="flex items-center gap-1" key={index}>
             <img src={listLogo} alt="" />
             <NavLink
               to={item?.path}
-              className={({ isActive }) => (isActive ? "text-[#194e8a] font-semibold " : "")}
+              className={({ isActive }) =>
+                isActive ? "text-[#194e8a] font-semibold " : ""
+              }
             >
               {item?.name}
             </NavLink>
@@ -92,7 +95,30 @@ const Banner = () => {
       <div className="border border-red-600 ">main</div>
 
       {/* right side bar */}
-      <aside className="border border-red-600 ">right side</aside>
+      <aside className=" py-4 px-3 bg-white ">
+        <div>
+          <p>Good Afternoon, John Smith</p>
+          <h5 className="text-center mt-4 text-xl font-semibold">
+            Flash Sale for You!
+          </h5>
+          <div className="text-center text-[#194e8a] my-3">
+            {" "}
+            <span className="text-7xl font-bold">40</span>
+            <span>% Off</span>
+          </div>
+          <div className="text-center">
+            After 12 hr this offer will be end.
+            <span className="text-[#194e8a] font-semibold hover:cursor-pointer hover:text-[#366b97]">
+              {" "}
+              Get Now
+            </span>
+          </div>
+          <div>
+            <img className="my-4" src={addImg} alt="" />
+            <button className="btn-primary w-full">Add to Cart</button>
+          </div>
+        </div>
+      </aside>
     </section>
   );
 };

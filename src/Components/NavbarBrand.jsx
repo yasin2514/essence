@@ -13,7 +13,7 @@ const NavbarBrand = () => {
     "Events"
   ];
   return (
-    <div className="flex justify-between max-w-screen-xl m-auto py-2 px-4 bg-white text-[#194e8a] ">
+    <div className="flex justify-between max-w-screen-xl m-auto py-2 px-4 bg-white text-[#2360a7] ">
       {navbar?.map((nav, index) => (
         <p className="hover:text-[#2c74c5] hover:cursor-pointer" key={index}>
           {nav}
