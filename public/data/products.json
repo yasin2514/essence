@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "name": "Food",
+    "img": "../../src/assets/p-1.png"
+  },
+  {
+    "id": 2,
+    "name": "Vitals",
+    "img": "../../src/assets/p-2.png"
+  },
+  {
+    "id": 3,
+    "name": "Bauer",
+    "img": "../../src/assets/p-3.png"
+  },
+  {
+    "id": 4,
+    "name": "Bolognese",
+    "img": "../../src/assets/p-4.png"
+  },
+  {
+    "id": 5,
+    "name": "Tortillas",
+    "img": "../../src/assets/p-5.png"
+  },
+  {
+    "id": 6,
+    "name": "Calgon",
+    "img": "../../src/assets/p-6.png"
+  },
+  {
+    "id": 7,
+    "name": "Coca Cola",
+    "img": "../../src/assets/p-7.png"
+  },
+  {
+    "id": 8,
+    "name": "Pesto",
+    "img": "../../src/assets/p-8.png"
+  },
+  {
+    "id": 9,
+    "name": "Cesar",
+    "img": "../../src/assets/p-9.png"
+  },
+  {
+    "id": 10,
+    "name": "Marzipan",
+    "img": "../../src/assets/p-10.png"
+  }
+]
