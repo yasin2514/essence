@@ -73,11 +73,11 @@ const Banner = () => {
   ];
   return (
     <section
-      className=" grid  gap-4"
-      style={{ gridTemplateColumns: "1fr 3fr 1.4fr", gap: "1rem" }}
+      className=" flex justify-between"
+      
     >
       {/* left sidebar */}
-      <aside className=" p-4 space-y-4 bg-white">
+      <aside className=" p-4 space-y-4 bg-white w-[18%]">
         {sideBar?.map((item, index) => (
           <div className="flex items-center gap-1" key={index}>
             <img src={listLogo} alt="" />
@@ -94,37 +94,38 @@ const Banner = () => {
       </aside>
 
       {/* middle */}
-      <div className=" ">
-        <div >
+      <div className="w-[58%] ">
         <BannerCarousel></BannerCarousel>
-        </div>
         <div className="bg-white p-3">
           <SwipeToSlide></SwipeToSlide>
         </div>
       </div>
 
       {/* right side bar */}
-      <aside className=" py-4 px-3 bg-white ">
+      <aside className=" py-4 px-3 bg-white w-[22%]">
         <div>
           <p>Good Afternoon, John Smith</p>
-          <h5 className="text-center mt-4 text-xl font-semibold">
+          <h5 className="text-center mt-5 text-xl font-semibold">
             Flash Sale for You!
           </h5>
-          <div className="text-center text-[#194e8a] my-3">
+          <div className="text-center text-[#194e8a] my-5">
             {" "}
             <span className="text-7xl font-bold">40</span>
             <span>% Off</span>
           </div>
           <div className="text-center">
-            After 12 hr this offer will be end.
+            <span className="text-[13px] font-semibold">
+              {" "}
+              After 12hr this offer will be end.
+            </span>
             <span className="text-[#194e8a] font-semibold hover:cursor-pointer hover:text-[#366b97]">
               {" "}
               Get Now
             </span>
           </div>
           <div>
-            <img className="my-4" src={addImg} alt="" />
-            <button className="btn-primary w-full">Add to Cart</button>
+            <img className="my-6" src={addImg} alt="" />
+            <button className="btn-primary w-full mt-">Add to Cart</button>
           </div>
         </div>
       </aside>

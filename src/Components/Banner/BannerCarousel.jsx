@@ -33,19 +33,19 @@ const BannerCarousel = () => {
       }}
     >
       <div>
-        <img src={img1} className="h-[450px]" alt="slide-img" />
+        <img src={img1} className="h-[410px]" alt="slide-img" />
       </div>
       <div>
-        <img src={img1} className="h-[450px]" alt="slide-img" />
+        <img src={img1} className="h-[410px]" alt="slide-img" />
       </div>
       <div>
-        <img src={img1} className="h-[450px]" alt="slide-img" />
+        <img src={img1} className="h-[410px]" alt="slide-img" />
       </div>
       <div>
-        <img src={img1} className="h-[450px]" alt="slide-img" />
+        <img src={img1} className="h-[410px]" alt="slide-img" />
       </div>
       <div>
-        <img src={img1} className="h-[450px]" alt="slide-img" />
+        <img src={img1} className="h-[410px]" alt="slide-img" />
       </div>
     </Carousel>
   );
