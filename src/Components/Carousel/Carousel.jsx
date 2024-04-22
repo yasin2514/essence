@@ -43,7 +43,7 @@ const Carousel = () => {
     "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt magnam inventore minima placeat!",
   ];
   return (
-    <div className="flex justify-center items-center bg-white max-w-screen-xl mx-auto text-blue-800 text-lg fw-bold py-2">
+    <div className="flex justify-center items-center bg-white max-w-screen-xl mx-auto text-blue-800  font-semibold py-2">
       <CarouselText items={items} />
     </div>
   );

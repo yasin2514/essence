@@ -6,7 +6,11 @@ const Main = () => {
   return (
     <>
       <Header></Header>
-      <Outlet></Outlet>
+      <section className="bg-[#f1f0ee] ">
+        <div className="max-w-screen-xl m-auto py-4">
+          <Outlet></Outlet>
+        </div>
+      </section>
       <Footer></Footer>
     </>
   );

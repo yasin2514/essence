@@ -27,11 +27,11 @@ const Navbar = () => {
           </form>
         </div>
         <div className="flex justify-between gap-7  text-white">
-          <div className="cursor-pointer">
-            Sign In <FiUser className="inline-block text-lg"></FiUser>
+          <div className="cursor-pointer flex items-center gap-1">
+            Sign In <FiUser className=" text-lg"></FiUser>
           </div>
-          <div className="cursor-pointer">
-            Cart <BsCart3 className="inline-block text-lg"></BsCart3>
+          <div className="cursor-pointer flex items-center gap-1">
+            Cart <BsCart3 className=" text-lg"></BsCart3>
           </div>
         </div>
       </section>
