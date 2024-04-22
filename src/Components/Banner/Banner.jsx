@@ -2,6 +2,7 @@ import { NavLink } from "react-router-dom";
 import listLogo from "../../assets/award.png";
 import addImg from "../../assets/add.jpg";
 import SwipeToSlide from "./SwipeToSlide";
+import BannerCarousel from "./BannerCarousel";
 const Banner = () => {
   const sideBar = [
     {
@@ -94,7 +95,9 @@ const Banner = () => {
 
       {/* middle */}
       <div className=" ">
-        <div>carousel one</div>
+        <div >
+        <BannerCarousel></BannerCarousel>
+        </div>
         <div className="bg-white p-3">
           <SwipeToSlide></SwipeToSlide>
         </div>
