@@ -1,14 +1,18 @@
 import logo from "../../assets/logo.png";
 import { FaSearch } from "react-icons/fa";
+import { FiUser } from "react-icons/fi";
+import { BsCart3 } from "react-icons/bs";
 
 const Navbar = () => {
   return (
-    <main className="bg-[#194e8a] text-white p-3">
+    <main className="bg-[#194e8a] text-white py-3">
       <section className="flex justify-between max-w-screen-xl mx-auto items-center">
         <div>
           <img src={logo} alt="" />
         </div>
-        <div className="bg-white w-5/12 py-2 px-4 rounded-full flex items-center gap-3">
+
+        {/* input section */}
+        <div className="bg-white w-6/12 py-2 px-4 rounded-full flex items-center gap-3">
           <div className="pr-2 border-e-2 border-[#b1bcc9]">
             <FaSearch className="text-[#194e8a]" />
           </div>
@@ -22,7 +26,14 @@ const Navbar = () => {
             />
           </form>
         </div>
-        <div>login informaion</div>
+        <div className="flex justify-between gap-7  text-white">
+          <div className="cursor-pointer">
+            Sign In <FiUser className="inline-block text-lg"></FiUser>
+          </div>
+          <div className="cursor-pointer">
+            Cart <BsCart3 className="inline-block text-lg"></BsCart3>
+          </div>
+        </div>
       </section>
     </main>
   );
