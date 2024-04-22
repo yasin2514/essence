@@ -1,6 +1,7 @@
 import { NavLink } from "react-router-dom";
 import listLogo from "../../assets/award.png";
 import addImg from "../../assets/add.jpg";
+import SwipeToSlide from "./SwipeToSlide";
 const Banner = () => {
   const sideBar = [
     {
@@ -92,7 +93,12 @@ const Banner = () => {
       </aside>
 
       {/* middle */}
-      <div className="border border-red-600 ">main</div>
+      <div className=" ">
+        <div>carousel one</div>
+        <div className="bg-white p-3">
+          <SwipeToSlide></SwipeToSlide>
+        </div>
+      </div>
 
       {/* right side bar */}
       <aside className=" py-4 px-3 bg-white ">
