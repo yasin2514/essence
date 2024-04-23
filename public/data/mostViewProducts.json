@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "name": "Wireless Bluetooth Headset Single Ear",
+    "img": "../../src/assets/mvi-1.png",
+    "price": 18,
+    "previousPrice": 26,
+    "rating": 5,
+    "review": 121
+  },
+  {
+    "id": 2,
+    "name": "Wireless Bluetooth Headset Single Ear",
+    "img": "../../src/assets/mvi-2.png",
+    "price": 8,
+    "previousPrice": 18,
+    "rating": 4,
+    "review": 85
+  },
+  {
+    "id": 3,
+    "name": "Wireless Bluetooth Headset Single Ear",
+    "img": "../../src/assets/mvi-3.png",
+    "price": 10,
+    "previousPrice": 17,
+    "rating": 4.5,
+    "review": 92
+  },
+  {
+    "id": 4,
+    "name": "Wireless Bluetooth Headset Single Ear",
+    "img": "../../src/assets/mvi-4.png",
+    "price": 11,
+    "previousPrice": 21,
+    "rating": 4,
+    "review": 78
+  },
+  {
+    "id": 5,
+    "name": "Wireless Bluetooth Headset Single Ear",
+    "img": "../../src/assets/mvi-5.png",
+    "price": 15,
+    "previousPrice": 21,
+    "rating": 4.5,
+    "review": 95
+  },
+  {
+    "id": 6,
+    "name": "Wireless Bluetooth Headset Single Ear",
+    "img": "../../src/assets/mvi-6.png",
+    "price": 8,
+    "previousPrice": 14,
+    "rating": 3.5,
+    "review": 65
+  },
+  {
+    "id": 7,
+    "name": "Wireless Bluetooth Headset Single Ear",
+    "img": "../../src/assets/mvi-1.png",
+    "price": 9,
+    "previousPrice": 16,
+    "rating": 4,
+    "review": 82
+  },
+  {
+    "id": 8,
+    "name": "Wireless Bluetooth Headset Single Ear",
+    "img": "../../src/assets/mvi-2.png",
+    "price": 8,
+    "previousPrice": 13,
+    "rating": 4.5,
+    "review": 90
+  },
+  {
+    "id": 9,
+    "name": "Wireless Bluetooth Headset Single Ear",
+    "img": "../../src/assets/mvi-3.png",
+    "price": 12,
+    "previousPrice": 18,
+    "rating": 3.5,
+    "review": 70
+  },
+  {
+    "id": 10,
+    "name": "Wireless Bluetooth Headset Single Ear",
+    "img": "../../src/assets/mvi-4.png",
+    "price": 12,
+    "previousPrice": 18,
+    "rating": 4,
+    "review": 88
+  },
+  {
+    "id": 10,
+    "name": "Wireless Bluetooth Headset Single Ear",
+    "img": "../../src/assets/mvi-5.png",
+    "price": 12,
+    "previousPrice": 18,
+    "rating": 4,
+    "review": 88
+  },
+  {
+    "id": 10,
+    "name": "Wireless Bluetooth Headset Single Ear",
+    "img": "../../src/assets/mvi-6.png",
+    "price": 12,
+    "previousPrice": 18,
+    "rating": 4,
+    "review": 88
+  }
+]
