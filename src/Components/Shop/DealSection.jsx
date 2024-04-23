@@ -70,7 +70,7 @@ const DealSection = () => {
                 </span>
               </div>
               <p className="text-gray-600">{item?.description}</p>
-              <div className="flex justify-around items-center bg-gray-100 p-2">
+              <div className="flex justify-around items-center bg-[#f0f0f0] p-2">
                 <button className="flex justify-center gap-1 items-center hover:text-blue-800 ">
                   <LuView></LuView> Preview
                 </button>
