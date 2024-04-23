@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Brand Name",
+    "img": "../../src/assets/tb-1.png"
+  },
+  {
+    "id": 2,
+    "name": "Brand Name",
+    "img": "../../src/assets/tb-2.png"
+  },
+  {
+    "id": 3,
+    "name": "Brand Name",
+    "img": "../../src/assets/tb-3.png"
+  },
+  {
+    "id": 4,
+    "name": "Brand Name",
+    "img": "../../src/assets/tb-4.png"
+  },
+  {
+    "id": 5,
+    "name": "Brand Name",
+    "img": "../../src/assets/tb-5.png"
+  },
+  {
+    "id": 6,
+    "name": "Brand Name",
+    "img": "../../src/assets/tb-6.png"
+  },
+  {
+    "id": 7,
+    "name": "Brand Name",
+    "img": "../../src/assets/tb-7.png"
+  },
+  {
+    "id": 8,
+    "name": "Brand Name",
+    "img": "../../src/assets/tb-8.png"
+  }
+]

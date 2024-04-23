@@ -6,6 +6,7 @@ import OnSelling from "../../Components/Shop/OnSelling";
 import OnSellingItem from "../../Components/Shop/OnSellingItem";
 import Shop from "../../Components/Shop/Shop";
 import ShopAllCategories from "../../Components/Shop/ShopAllCategories";
+import TopBrands from "../../Components/Shop/TopBrands";
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
       <ApplesProducts></ApplesProducts>
       <ShopAllCategories></ShopAllCategories>
       <MostViewsItem></MostViewsItem>
+      <TopBrands></TopBrands>
   
     </>
   );
