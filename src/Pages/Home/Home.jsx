@@ -4,6 +4,7 @@ import ApplesProducts from "../../Components/Shop/ApplesProducts";
 import OnSelling from "../../Components/Shop/OnSelling";
 import OnSellingItem from "../../Components/Shop/OnSellingItem";
 import Shop from "../../Components/Shop/Shop";
+import ShopAllCategories from "../../Components/Shop/ShopAllCategories";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <OnSelling></OnSelling>
       <OnSellingItem></OnSellingItem>
       <ApplesProducts></ApplesProducts>
+      <ShopAllCategories></ShopAllCategories>
   
     </>
   );

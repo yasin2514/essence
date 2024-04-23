@@ -1,0 +1,77 @@
+[
+  {
+    "id": 1,
+    "name": "Portrait",
+    "img": "../../src/assets/acp-1.png"
+  },
+  {
+    "id": 2,
+    "name": "Space",
+    "img": "../../src/assets/acp-2.png"
+  },
+  {
+    "id": 3,
+    "name": "Texture",
+    "img": "../../src/assets/acp-3.png"
+  },
+  {
+    "id": 4,
+    "name": "Minimal",
+    "img": "../../src/assets/acp-4.png"
+  },
+  {
+    "id": 5,
+    "name": "Food",
+    "img": "../../src/assets/acp-5.png"
+  },
+  {
+    "id": 6,
+    "name": "Interior",
+    "img": "../../src/assets/acp-6.png"
+  },
+  {
+    "id": 7,
+    "name": "Colorful",
+    "img": "../../src/assets/acp-7.png"
+  },
+  {
+    "id": 8,
+    "name": "Nature",
+    "img": "../../src/assets/acp-8.png"
+  },
+  {
+    "id": 9,
+    "name": "Architecture",
+    "img": "../../src/assets/acp-9.png"
+  },
+  {
+    "id": 10,
+    "name": "Art",
+    "img": "../../src/assets/acp-10.png"
+  },
+  {
+    "id": 11,
+    "name": "Colorful",
+    "img": "../../src/assets/acp-11.png"
+  },
+  {
+    "id": 12,
+    "name": "Business",
+    "img": "../../src/assets/acp-12.png"
+  },
+  {
+    "id": 13,
+    "name": "Plant",
+    "img": "../../src/assets/acp-13.png"
+  },
+  {
+    "id": 14,
+    "name": "Animal",
+    "img": "../../src/assets/acp-14.png"
+  },
+  {
+    "id": 15,
+    "name": "Technology",
+    "img": "../../src/assets/acp-15.png"
+  }
+]

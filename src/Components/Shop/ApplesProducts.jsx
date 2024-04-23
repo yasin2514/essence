@@ -1,5 +1,5 @@
 import { useState } from "react";
-import data from "../../../public/data/AppleProducts.json";
+import data from "../../../public/data/appleProducts.json";
 import logoImg from "../../assets/slide-2.png";
 
 const ApplesProducts = () => {
@@ -32,7 +32,7 @@ const ApplesProducts = () => {
         </div>
       </div>
       <div className="grid grid-cols-6 gap-10 ">
-        {data?.slice(0, showAll ? data.length : 6).map((item, index) => (
+        {data?.slice(0, showAll ? data?.length : 6).map((item, index) => (
           <div
             key={index}
             className="flex flex-col justify-center items-center"
