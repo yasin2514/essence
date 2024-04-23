@@ -1,10 +1,14 @@
 import { FaStar } from "react-icons/fa";
 import Rating from "react-rating-stars-component";
 
-const Products = ({ item }) => {
+const Products = ({ item, noGap }) => {
   const { name, img, previousPrice, price, rating, review } = item || {};
   return (
-    <div className="flex flex-col justify-center items-center mx-3 pb-2 bg-white rounded-lg shadow-lg overflow-hidden hover:scale-110 duration-150">
+    <div
+      className={`${
+        noGap ? "mx-3  hover:scale-110 duration-150" : ""
+      } flex flex-col justify-center items-center pb-2 bg-white rounded-lg shadow-lg overflow-hidden `}
+    >
       <img src={img} alt="" />
       <div className="p-3 text-center space-y-2">
         <h5 className="font-semibold text-lg">{name}</h5>

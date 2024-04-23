@@ -1,6 +1,7 @@
 import Banner from "../../Components/Banner/Banner";
 import Pickup from "../../Components/Banner/Pickup";
 import ApplesProducts from "../../Components/Shop/ApplesProducts";
+import DiscoverItems from "../../Components/Shop/DiscoverItems";
 import MostViewsItem from "../../Components/Shop/MostViewsItem";
 import OnSelling from "../../Components/Shop/OnSelling";
 import OnSellingItem from "../../Components/Shop/OnSellingItem";
@@ -20,6 +21,7 @@ const Home = () => {
       <ShopAllCategories></ShopAllCategories>
       <MostViewsItem></MostViewsItem>
       <TopBrands></TopBrands>
+      <DiscoverItems></DiscoverItems>
   
     </>
   );

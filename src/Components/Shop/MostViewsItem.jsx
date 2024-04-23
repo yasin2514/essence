@@ -3,9 +3,10 @@ import data from "../../../public/data/mostViewProducts.json";
 import Products from "./Products";
 
 const MostViewsItem = () => {
+
   const [currentPage, setCurrentPage] = useState(0);
   const itemsPerPage = 5;
-  const totalItems = data.length;
+  const totalItems = data?.length;
   const totalPages = Math.ceil(totalItems / itemsPerPage);
 
   const handlePrevPage = () => {
@@ -47,7 +48,7 @@ const MostViewsItem = () => {
         >
           {[...data, ...data.slice(0, itemsPerPage)].map((item, index) => (
             <div key={index} className="carousel-item ">
-              <Products item={item}></Products>
+              <Products noGap={true} item={item}></Products>
             </div>
           ))}
         </div>

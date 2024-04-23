@@ -48,5 +48,15 @@
     "id": 10,
     "name": "Marzipan",
     "img": "../../src/assets/p-10.png"
+  },
+  {
+    "id": 10,
+    "name": "Butter",
+    "img": "../../src/assets/p-11.png"
+  },
+  {
+    "id": 11,
+    "name": "Dallmayr",
+    "img": "../../src/assets/p-12.png"
   }
 ]
