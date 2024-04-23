@@ -2,6 +2,7 @@ import { Outlet } from "react-router-dom";
 import Footer from "../Components/Footer/Footer";
 import Header from "../Components/Header/Header";
 import FooterBottom from "../Components/Footer/FooterBottom";
+import GoToTop from "../Components/GoToTop";
 
 const Main = () => {
   return (
@@ -13,7 +14,9 @@ const Main = () => {
           <Footer></Footer>
         </div>
       </section>
+
       <FooterBottom></FooterBottom>
+      <GoToTop />
     </>
   );
 };
