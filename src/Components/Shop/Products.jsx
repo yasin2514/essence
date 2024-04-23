@@ -4,9 +4,9 @@ import Rating from "react-rating-stars-component";
 const Products = ({ item }) => {
   const { name, img, previousPrice, price, rating, review } = item || {};
   return (
-    <div className="flex flex-col justify-center items-center mx-3 pb-3 bg-white rounded-lg shadow-lg overflow-hidden">
+    <div className="flex flex-col justify-center items-center mx-3 pb-2 bg-white rounded-lg shadow-lg overflow-hidden hover:scale-110 duration-150">
       <img src={img} alt="" />
-      <div className="p-3 text-center space-y-3">
+      <div className="p-3 text-center space-y-2">
         <h5 className="font-semibold text-lg">{name}</h5>
         <div className="flex items-center justify-center">
           <Rating

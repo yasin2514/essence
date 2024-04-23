@@ -35,7 +35,7 @@ const ApplesProducts = () => {
         {data?.slice(0, showAll ? data?.length : 6).map((item, index) => (
           <div
             key={index}
-            className="flex flex-col justify-center items-center"
+            className="flex flex-col justify-center items-center hover:scale-110 duration-150"
           >
             <img src={item?.img} alt="" />
             <p className="font-semibold">{item?.name}</p>
