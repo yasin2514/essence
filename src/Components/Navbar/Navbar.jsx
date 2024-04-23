@@ -9,12 +9,11 @@ const Navbar = () => {
   const [showMenu, setShowMenu] = useState(true);
   return (
     <main className="bg-[#194e8a] text-white py-3">
-      <section className="flex justify-between max-w-screen-xl mx-auto items-center">
+      <section className="flex  justify-between max-w-screen-xl mx-auto items-center">
         <div>
           <img src={logo} alt="" />
         </div>
 
-        {/* input section */}
         <div className="md:hidden">
           {showMenu ? (
             <button onClick={() => setShowMenu(!showMenu)}>
@@ -26,11 +25,17 @@ const Navbar = () => {
             </button>
           )}
         </div>
-        <div className="bg-white w-6/12 py-2 px-4 rounded-full md:flex items-center gap-3 hidden">
-          <div className="pr-2 border-e-2 border-[#b1bcc9]">
-            <FaSearch className="text-[#194e8a]" />
+        {/* input section */}
+
+        <div
+          className={` absolute ${
+            showMenu ? "mt-[-500px] " : "duration-150 mt-[120px] right-0"
+          } md:mt-0  md:w-6/12 w-full py-2 px-4 rounded-full  md:relative md:flex  bg-white items-center gap-3 `}
+        >
+          <div className="pr-2 hidden md:block md:border-e-2 md:border-[#b1bcc9]">
+            <FaSearch className=" text-[#194e8a]" />
           </div>
-          <form className="bg-white w-full border-0 text-black">
+          <form className=" md:bg-white w-full border-0 text-black">
             <input
               type="text"
               name=""
@@ -40,7 +45,11 @@ const Navbar = () => {
             />
           </form>
         </div>
-        <div className="md:flex justify-between gap-7  text-white hidden">
+        <div
+          className={`absolute ${
+            showMenu ? "mt-[-500px] " : "mt-[220px] duration-150"
+          } md:mt-0 md:relative md:flex  justify-between gap-1 md:gap-7 px-2 md:px-0 bg-[#f1f0ee] md:bg-transparent w-full text-black md:w-[150px] md:text-white `}
+        >
           <div className="cursor-pointer flex items-center gap-1">
             Sign In <FiUser className=" text-lg"></FiUser>
           </div>
