@@ -27,14 +27,14 @@ const ViewProductModal = ({ isOpen, onClose, item }) => {
       <div className="">
         <div
           ref={modalRef}
-          className="modal-content bg-white rounded-lg shadow-md p-4 mx-auto mt-24 w-1/2"
+          className="modal-content bg-white rounded-lg shadow-md p-4 mx-auto relative mt-24 w-1/2"
         >
-          <div className="flex gap-3 justify-between items-start bg-white p-4">
+          <div className="flex gap-3 justify-between items-start p-4">
             <div className="w-[49%] h-full">
               <img src={item?.img} alt="img" className="w-100 h-[100%]" />
             </div>
-            <div className="w-[49%] space-y-3 flex flex-col justify-between h-[41vh] ">
-              <div>
+            <div className="w-[49%] ">
+              <div className="space-y-3">
                 <h5 className="font-bold text-xl">{item?.name}</h5>
                 <div className="flex items-center gap-2">
                   <Rating
@@ -60,19 +60,16 @@ const ViewProductModal = ({ isOpen, onClose, item }) => {
                     ).toFixed(2)}%`}
                   </span>
                 </div>
-                <p className="text-gray-600">
+                <p className="text-gray-600 mb-10">
                   {item?.description} {item?.description}
                 </p>
               </div>
-
-              <div className="mt-auto">
-                <button
-                  onClick={onClose}
-                  className="btn-danger w-full flex justify-center gap-2 items-center"
-                >
-                  Close Modal
-                </button>
-              </div>
+              <button
+                onClick={onClose}
+                className=" absolute bottom-8 right-10 btn-danger w-2/5   flex justify-center  items-center"
+              >
+                Close Modal
+              </button>
             </div>
           </div>
         </div>
