@@ -125,7 +125,7 @@ const Banner = () => {
           </div>
           <div>
             <img className="my-6" src={addImg} alt="" />
-            <button className="btn-primary w-full mt-">Add to Cart</button>
+            <button className="btn-primary w-full">Add to Cart</button>
           </div>
         </div>
       </aside>

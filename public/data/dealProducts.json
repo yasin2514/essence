@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Wireless Bluetooth Headset Single Ear..",
+    "img": "../../src/assets/d-1.png",
+    "price": 18,
+    "previousPrice": 26,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+    "rating": 5,
+    "review": 121
+  },
+  {
+    "id": 2,
+    "name": "Wireless Bluetooth Headset Single Ear..",
+    "img": "../../src/assets/d-2.png",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+    "price": 8,
+    "previousPrice": 18,
+    "rating": 4,
+    "review": 85
+  },
+  {
+    "id": 3,
+    "name": "Wireless Bluetooth Headset Single Ear..",
+    "img": "../../src/assets/d-2.png",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+    "price": 10,
+    "previousPrice": 17,
+    "rating": 4.5,
+    "review": 92
+  },
+  {
+    "id": 4,
+    "name": "Wireless Bluetooth Headset Single Ear..",
+    "img": "../../src/assets/d-1.png",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+    "price": 11,
+    "previousPrice": 21,
+    "rating": 5,
+    "review": 78
+  }
+]
