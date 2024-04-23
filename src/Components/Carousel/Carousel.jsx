@@ -18,7 +18,7 @@ const CarouselText = ({ items }) => {
   return (
     <div className="relative w-screen">
       <button
-        className="absolute left-0  top-1/2 transform -translate-y-1/2 text-blue-600 text-3xl fw-bolder"
+        className="absolute left-0  top-1/2 transform -translate-y-1/2 text-blue-400 text-3xl fw-bolder hover:text-blue-600"
         onClick={goToPrevSlide}
       >
         &lt;
@@ -27,7 +27,7 @@ const CarouselText = ({ items }) => {
         <div className="mx-auto">{items[currentIndex]}</div>
       </div>
       <button
-        className="absolute right-0 top-1/2 transform -translate-y-1/2 text-blue-600 text-3xl fw-bolder"
+        className="absolute right-0 top-1/2 transform -translate-y-1/2 text-blue-400 text-3xl fw-bolder hover:text-blue-600"
         onClick={goToNextSlide}
       >
         &gt;
@@ -43,7 +43,7 @@ const Carousel = () => {
     "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt magnam inventore minima placeat!",
   ];
   return (
-    <div className="flex justify-center items-center bg-white max-w-screen-xl mx-auto text-blue-800  font-semibold py-2">
+    <div className="flex justify-center items-center bg-white max-w-screen-xl mx-auto md:text-blue-800  font-semibold py-2 px-2 lg:px-0 text-gray-600">
       <CarouselText items={items} />
     </div>
   );
