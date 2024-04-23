@@ -27,13 +27,13 @@ const ViewProductModal = ({ isOpen, onClose, item }) => {
       <div className="">
         <div
           ref={modalRef}
-          className="modal-content bg-white rounded-lg shadow-md p-4 mx-auto relative mt-24 w-1/2"
+          className="modal-content bg-white rounded-lg shadow-md p-4 mx-auto relative mt-5 md:mt-24 w-[85%] md:w-1/2"
         >
-          <div className="flex gap-3 justify-between items-start p-4">
-            <div className="w-[49%] h-full">
+          <div className="flex flex-col md:flex-row gap-3 justify-between items-start p-4">
+            <div className="w-full md:w-[49%] h-full">
               <img src={item?.img} alt="img" className="w-100 h-[100%]" />
             </div>
-            <div className="w-[49%] ">
+            <div className="w-full md:w-[49%] ">
               <div className="space-y-3">
                 <h5 className="font-bold text-xl">{item?.name}</h5>
                 <div className="flex items-center gap-2">
@@ -66,7 +66,7 @@ const ViewProductModal = ({ isOpen, onClose, item }) => {
               </div>
               <button
                 onClick={onClose}
-                className=" absolute bottom-8 right-10 btn-danger w-2/5   flex justify-center  items-center"
+                className=" md:absolute bottom-8 right-10 btn-danger w-2/5   flex justify-center mt-5 md:mt-0 items-center"
               >
                 Close Modal
               </button>

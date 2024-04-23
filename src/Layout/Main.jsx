@@ -10,11 +10,10 @@ const Main = () => {
       <Header></Header>
       <section className="bg-[#f1f0ee] ">
         <div className="max-w-screen-xl m-auto pt-4 pb-10">
-          {/* <Outlet></Outlet> */}
+          <Outlet></Outlet>
           <Footer></Footer>
         </div>
       </section>
-
       <FooterBottom></FooterBottom>
       <GoToTop />
     </>

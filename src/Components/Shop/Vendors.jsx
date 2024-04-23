@@ -4,9 +4,9 @@ import { FaStar } from "react-icons/fa";
 
 const Vendors = () => {
   return (
-    <div className="mt-16">
+    <div className="mt-16 px-2 md:px-0">
       <h4 className="text-2xl font-semibold mb-6">Weekly Top Vendors</h4>
-      <div className="flex  justify-between items-center pb-2 gap-4">
+      <div className="flex flex-col md:flex-row  justify-between items-center pb-2 gap-4">
         {data?.map((item, index) => (
           // parents
           <div key={index} className="bg-white p-3">
@@ -15,7 +15,7 @@ const Vendors = () => {
               <div className="p-3  space-y-2">
                 <h5 className="font-bold text-lg text-center">{item?.name}</h5>
                 <div className="grid grid-cols-2  place-items-center  ">
-                  <small >Items </small>
+                  <small>Items </small>
                   <Rating
                     count={5}
                     size={12}

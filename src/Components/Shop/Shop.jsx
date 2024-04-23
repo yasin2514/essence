@@ -3,7 +3,7 @@ const Shop = () => {
   return (
     <div className="mt-16">
       <h4 className="text-2xl font-semibold mb-6">Shop by Department</h4>
-      <div className="grid grid-cols-6 gap-10 ">
+      <div className="grid md:grid-cols-6 gap-10 ">
         {data?.map((item, index) => (
           <div
             key={index}

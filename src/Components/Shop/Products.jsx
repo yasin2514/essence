@@ -6,10 +6,10 @@ const Products = ({ item, noGap }) => {
   return (
     <div
       className={`${
-        noGap ? "mx-3  hover:scale-110 duration-150" : ""
+        noGap ? "mx-3  hover:scale-110 duration-150 h-[400px] md:h-auto " : ""
       } flex flex-col justify-center items-center pb-2 bg-white rounded-lg shadow-lg overflow-hidden `}
     >
-      <img src={img} alt="" />
+      <img src={img} className="w-full md:w-auto" alt="" />
       <div className="p-3 text-center space-y-2">
         <h5 className="font-semibold text-lg">{name}</h5>
         <div className="flex items-center justify-center">

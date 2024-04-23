@@ -7,8 +7,8 @@ const ApplesProducts = () => {
   console.log({ showAll });
 
   return (
-    <div className="mt-16">
-      <div className="flex justify-between items-center mb-6">
+    <div className="mt-16 px-2 md:px-0">
+      <div className="md:flex justify-between items-center mb-6">
         <div className="flex items-center gap-3">
           <img src={logoImg} className="w-12 " alt="image" />
           <h4 className="text-2xl font-semibold ">Apple</h4>
@@ -31,7 +31,7 @@ const ApplesProducts = () => {
           )}
         </div>
       </div>
-      <div className="grid grid-cols-6 gap-10 ">
+      <div className="grid md:grid-cols-6 gap-10 ">
         {data?.slice(0, showAll ? data?.length : 6).map((item, index) => (
           <div
             key={index}

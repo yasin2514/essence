@@ -22,8 +22,8 @@ const DealSection = () => {
   const closeModal = () => setIsModalOpen(false);
   return (
     <>
-      <div className="mt-16">
-        <div className="flex justify-between items-center mb-6">
+      <div className="mt-16 px-2 md:px-0">
+        <div className="md:flex justify-between items-center mb-6">
           <h4 className="text-2xl font-semibold ">Deal of The Day</h4>
           <div>
             {!showAll ? (
@@ -43,18 +43,18 @@ const DealSection = () => {
             )}
           </div>
         </div>
-        <div className="grid grid-cols-2 gap-6 ">
+        <div className="grid md:grid-cols-2 gap-6 ">
           {/* card-section */}
           {data?.slice(0, showAll ? data?.length : 2).map((item, index) => (
             <div
               key={index}
-              className="flex gap-3 justify-between items-start bg-white p-4"
+              className="flex flex-col md:flex-row gap-3 justify-between items-start bg-white p-4"
             >
-              <div className="w-[49%] h-full">
+              <div className="w-full md:w-[49%] h-full">
                 <img src={item?.img} alt="img" className="w-100 h-[100%]" />
               </div>
               {/* card-description */}
-              <div className="w-[49%] space-y-2">
+              <div className="w-full md:w-[49%] space-y-2">
                 <h5 className="font-bold text-xl">{item?.name}</h5>
                 <div className="flex items-center gap-2">
                   <Rating
@@ -104,11 +104,11 @@ const DealSection = () => {
           ))}
         </div>
         {/* another part */}
-        <div className="flex w-100 justify-between mt-6">
-          <div className="border w-[49%]">
+        <div className="md:flex w-100 justify-between mt-6">
+          <div className="border w-full md:w-[49%]">
             <img src={img} alt="sofa Aqua" />
           </div>
-          <div className="border w-[49%]">
+          <div className="border w-full md:w-[49%] mt-5 md:mt-0">
             <img src={img} alt="sofa Aqua" />
           </div>
         </div>

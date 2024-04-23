@@ -47,7 +47,7 @@ const MostViewsItem = () => {
           }}
         >
           {[...data, ...data.slice(0, itemsPerPage)].map((item, index) => (
-            <div key={index} className="carousel-item ">
+            <div key={index} className="carousel-item">
               <Products noGap={true} item={item}></Products>
             </div>
           ))}

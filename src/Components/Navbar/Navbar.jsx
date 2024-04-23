@@ -30,7 +30,7 @@ const Navbar = () => {
         <div
           className={` absolute ${
             showMenu ? "mt-[-500px] " : "duration-150 mt-[120px] right-0"
-          } md:mt-0  md:w-6/12 w-full py-2 px-4 rounded-full  md:relative md:flex  bg-white items-center gap-3 `}
+          } md:mt-0  md:w-6/12 w-full py-2 px-4 rounded-full  md:relative md:flex shadow-2xl md:shadow-none  bg-white items-center gap-3 `}
         >
           <div className="pr-2 hidden md:block md:border-e-2 md:border-[#b1bcc9]">
             <FaSearch className=" text-[#194e8a]" />
@@ -47,8 +47,8 @@ const Navbar = () => {
         </div>
         <div
           className={`absolute ${
-            showMenu ? "mt-[-500px] " : "mt-[220px] duration-150"
-          } md:mt-0 md:relative md:flex  justify-between gap-1 md:gap-7 px-2 md:px-0 bg-[#f1f0ee] md:bg-transparent w-full text-black md:w-[150px] md:text-white `}
+            showMenu ? "mt-[-500px] " : "mt-[208px] duration-150"
+          } md:mt-0 md:relative md:flex shadow-lg md:shadow-none justify-between gap-1 md:gap-7 px-2 pb-3 md:pb-0 md:px-0 bg-[#ffffff] md:bg-transparent w-full text-black md:w-[150px] md:text-white `}
         >
           <div className="cursor-pointer flex items-center gap-1">
             Sign In <FiUser className=" text-lg"></FiUser>
