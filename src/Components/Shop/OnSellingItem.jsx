@@ -1,4 +1,3 @@
-import React from "react";
 import img1 from "../../assets/osp-1.png";
 import img2 from "../../assets/osp-2.png";
 
