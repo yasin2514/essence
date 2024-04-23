@@ -6,14 +6,14 @@ import img4 from "../../assets/pay-4.png";
 const FooterBottom = () => {
   return (
     <div className="bg-[#cecfcf]">
-      <div className="max-w-screen-xl m-auto py-5 flex justify-between items-center">
+      <div className="max-w-screen-xl m-auto py-5 px-2 md:px-0 md:flex justify-between items-center text-center md:text-left">
         <div>
           All Rights Reserved. &copy;{new Date().getFullYear()}{" "}
           <span className="text-blue-800">Yasin Khan Rabbi</span>
         </div>
-        <div className="flex gap-5 items-center">
+        <div className="md:flex gap-5 items-center">
           <p>We are using safe for</p>
-          <div className="flex gap-2">
+          <div className="flex justify-center md:justify-start gap-2 mt-2 md:mt-0">
             <a href="#">
               <img src={img1} alt="payment img" />
             </a>
