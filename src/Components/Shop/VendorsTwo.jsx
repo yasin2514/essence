@@ -1,4 +1,3 @@
-import React from 'react';
 import data from "../../../public/data/vendorsTwo.json";
 
 const VendorsTwo = () => {
@@ -6,7 +5,7 @@ const VendorsTwo = () => {
         <div className='grid grid-cols-3 gap-5 mt-16'>
             {
                 data?.map((item,index)=>(
-                    <div key={index} title={item?.name}>
+                    <div key={index} title={item?.name} className='shadow-md'>
                         <img src={item?.img} alt="image" />
                     </div>
                 ))

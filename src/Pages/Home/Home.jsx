@@ -8,6 +8,7 @@ import OnSellingItem from "../../Components/Shop/OnSellingItem";
 import Shop from "../../Components/Shop/Shop";
 import ShopAllCategories from "../../Components/Shop/ShopAllCategories";
 import TopBrands from "../../Components/Shop/TopBrands";
+import Vendors from "../../Components/Shop/Vendors";
 import VendorsTwo from "../../Components/Shop/VendorsTwo";
 
 const Home = () => {
@@ -22,8 +23,9 @@ const Home = () => {
       <ShopAllCategories></ShopAllCategories>
       <MostViewsItem></MostViewsItem>
       <TopBrands></TopBrands>
-      <DiscoverItems></DiscoverItems>
+      <Vendors></Vendors>
       <VendorsTwo></VendorsTwo>
+      <DiscoverItems></DiscoverItems>
   
     </>
   );
