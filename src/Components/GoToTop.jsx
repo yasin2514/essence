@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { FaArrowUp } from "react-icons/fa";
 
 const GoToTop = () => {
@@ -7,7 +7,7 @@ const GoToTop = () => {
   useEffect(() => {
     const handleScroll = () => {
       const scrolled = document.documentElement.scrollTop;
-      setIsVisible(scrolled > 300); // Show the button when user scrolls down 300px
+      setIsVisible(scrolled > 300);
     };
 
     window.addEventListener("scroll", handleScroll);

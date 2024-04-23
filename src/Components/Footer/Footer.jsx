@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <div className="flex justify-between mt-20">
       {/* first section */}
-      <div className="border w-[23%]">
+      <div className="w-[23%]">
         <img src={logo} alt="logo" />
         <div className="space-y-3 mt-5 pr-5">
           <p className="text-gray-700">Got Question? Call us 24/7</p>
