@@ -1,8 +1,7 @@
-import img1 from "../../assets/osp-1.png";
-import img2 from "../../assets/osp-2.png";
+import img1 from "../../../public/images/osp-1.png";
+import img2 from "../../../public/images/osp-2.png";
 
 const OnSellingItem = () => {
-  
   return (
     <div className="mt-16 px-2 md:px-0">
       <h4 className="text-2xl font-semibold mb-6">On Selling Products</h4>

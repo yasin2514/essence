@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import logoImg from "../../assets/slide-2.png";
+import logoImg from "../../../public/images/slide-2.png";
 
 const ApplesProducts = () => {
   const [data, setData] = useState([]);

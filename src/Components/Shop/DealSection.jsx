@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import img from "../../assets/d-3.png";
+import img from "../../../public/images/d-3.png";
 import { FaStar } from "react-icons/fa";
 import Rating from "react-rating-stars-component";
 import { BsCart3 } from "react-icons/bs";

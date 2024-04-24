@@ -1,4 +1,4 @@
-import logo from "../../assets/logo.png";
+import logo from "../../../public/images/logo.png";
 import { FaSearch } from "react-icons/fa";
 import { FiUser } from "react-icons/fi";
 import { BsCart3 } from "react-icons/bs";

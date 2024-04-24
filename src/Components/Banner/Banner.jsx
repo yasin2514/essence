@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
-import listLogo from "../../assets/award.png";
-import addImg from "../../assets/add.jpg";
+import listLogo from "../../../public/images/award.png";
+import addImg from "../../../public/images/add.jpg";
 import SwipeToSlide from "./SwipeToSlide";
 import BannerCarousel from "./BannerCarousel";
 const Banner = () => {

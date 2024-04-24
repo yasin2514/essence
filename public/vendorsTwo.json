@@ -1,32 +1,32 @@
 [
   {
     "id": 1,
-    "name":"Apple MacBook",
-    "img": "../../src/assets/wv-1.png"
+    "name": "Apple MacBook",
+    "img": "./images/wv-1.png"
   },
   {
     "id": 2,
     "name": "Wooden Sofa Aqua",
-    "img": "../../src/assets/wv-2.png"
+    "img": "./images/wv-2.png"
   },
   {
     "id": 3,
     "name": "Apple MacBook",
-    "img": "../../src/assets/wv-1.png"
+    "img": "./images/wv-1.png"
   },
   {
     "id": 4,
     "name": "Homme",
-    "img": "../../src/assets/wv-3.png"
+    "img": "./images/wv-3.png"
   },
   {
     "id": 5,
     "name": "Apple MacBook",
-    "img": "../../src/assets/wv-1.png"
+    "img": "./images/wv-1.png"
   },
   {
     "id": 6,
     "name": "Super Mega Kheweul",
-    "img": "../../src/assets/wv-4.png"
+    "img": "./images/wv-4.png"
   }
 ]

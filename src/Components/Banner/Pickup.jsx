@@ -1,4 +1,4 @@
-import img from "../../assets/yellow-mark.png";
+import img from "../../../public/images/yellow-mark.png";
 
 const Pickup = () => {
   const items = [

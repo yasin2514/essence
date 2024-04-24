@@ -3,14 +3,14 @@
     "id": 1,
     "name": "Wireless Bluetooth Headset ",
     "description": "Wireless Bluetooth Headset Single",
-    "img": "../../src/assets/sp-1.png",
+    "img": "./images/sp-1.png",
     "price": 18,
     "previousPrice": 26
   },
   {
     "id": 2,
     "name": "Wireless Bluetooth Headset ",
-    "img": "../../src/assets/sp-2.png",
+    "img": "./images/sp-2.png",
     "description": "Wireless Bluetooth Headset Single",
     "price": 8,
     "previousPrice": 18
@@ -18,7 +18,7 @@
   {
     "id": 3,
     "name": "Wireless Bluetooth Headset ",
-    "img": "../../src/assets/sp-3.png",
+    "img": "./images/sp-3.png",
     "description": "Wireless Bluetooth Headset Single",
     "price": 10,
     "previousPrice": 17
@@ -26,7 +26,7 @@
   {
     "id": 4,
     "name": "Wireless Bluetooth Headset ",
-    "img": "../../src/assets/sp-4.png",
+    "img": "./images/sp-4.png",
     "description": "Wireless Bluetooth Headset Single",
     "price": 11,
     "previousPrice": 21
@@ -34,7 +34,7 @@
   {
     "id": 5,
     "name": "Wireless Bluetooth Headset ",
-    "img": "../../src/assets/sp-5.png",
+    "img": "./images/sp-5.png",
     "description": "Wireless Bluetooth Headset Single",
     "price": 15,
     "previousPrice": 21
@@ -42,7 +42,7 @@
   {
     "id": 6,
     "name": "Wireless Bluetooth Headset ",
-    "img": "../../src/assets/sp-6.png",
+    "img": "./images/sp-6.png",
     "description": "Wireless Bluetooth Headset Single",
     "price": 8,
     "previousPrice": 14
@@ -50,7 +50,7 @@
   {
     "id": 7,
     "name": "Wireless Bluetooth Headset ",
-    "img": "../../src/assets/sp-7.png",
+    "img": "./images/sp-7.png",
     "description": "Wireless Bluetooth Headset Single",
     "price": 9,
     "previousPrice": 16
@@ -58,7 +58,7 @@
   {
     "id": 8,
     "name": "Wireless Bluetooth Headset ",
-    "img": "../../src/assets/sp-8.png",
+    "img": "./images/sp-8.png",
     "description": "Wireless Bluetooth Headset Single",
     "price": 8,
     "previousPrice": 13
@@ -66,7 +66,7 @@
   {
     "id": 9,
     "name": "Wireless Bluetooth Headset ",
-    "img": "../../src/assets/sp-9.png",
+    "img": "./images/sp-9.png",
     "description": "Wireless Bluetooth Headset Single",
     "price": 12,
     "previousPrice": 18

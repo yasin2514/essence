@@ -2,8 +2,8 @@
   {
     "id": 1,
     "name": "Pizza Hut",
-    "img": "../../src/assets/slide-1.png",
-    "bannerImg": "../../src/assets/v-1.png",
+    "img": "./images/slide-1.png",
+    "bannerImg": "./images/v-1.png",
     "items": 126,
     "rating": 5,
     "review": 21
@@ -11,8 +11,8 @@
   {
     "id": 2,
     "name": "Louis Vuitton",
-    "img": "../../src/assets/slide-2.png",
-    "bannerImg": "../../src/assets/v-2.png",
+    "img": "./images/slide-2.png",
+    "bannerImg": "./images/v-2.png",
     "items": 128,
     "rating": 5,
     "review": 85
@@ -20,8 +20,8 @@
   {
     "id": 3,
     "name": "Mitsubishi",
-    "img": "../../src/assets/slide-3.png",
-    "bannerImg": "../../src/assets/v-3.png",
+    "img": "./images/slide-3.png",
+    "bannerImg": "./images/v-3.png",
     "items": 107,
     "rating": 4.5,
     "review": 92
@@ -29,8 +29,8 @@
   {
     "id": 4,
     "name": "Ferrari",
-    "img": "../../src/assets/slide-4.png",
-    "bannerImg": "../../src/assets/v-4.png",
+    "img": "./images/slide-4.png",
+    "bannerImg": "./images/v-4.png",
     "items": 211,
     "rating": 5,
     "review": 78
@@ -38,8 +38,8 @@
   {
     "id": 5,
     "name": "Louis Vuitton",
-    "img": "../../src/assets/slide-5.png",
-    "bannerImg": "../../src/assets/v-5.png",
+    "img": "./images/slide-5.png",
+    "bannerImg": "./images/v-5.png",
     "items": 121,
     "rating": 4.5,
     "review": 95

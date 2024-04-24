@@ -1,7 +1,7 @@
 import React from "react";
-import logo from "../../assets/footerlogo.png";
-import googleImg from "../../assets/Badge.png";
-import appleImg from "../../assets/Badge-2.png";
+import logo from "../../../public/images/footerlogo.png";
+import googleImg from "../../../public/images/Badge.png";
+import appleImg from "../../../public/images/Badge-2.png";
 import { CiFacebook, CiInstagram } from "react-icons/ci";
 import { FaXTwitter, FaLinkedin } from "react-icons/fa6";
 

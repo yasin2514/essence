@@ -1,7 +1,7 @@
-import img1 from "../../assets/pay-1.png";
-import img2 from "../../assets/pay-2.png";
-import img3 from "../../assets/pay-3.png";
-import img4 from "../../assets/pay-4.png";
+import img1 from "../../../public/images/pay-1.png";
+import img2 from "../../../public/images/pay-2.png";
+import img3 from "../../../public/images/pay-3.png";
+import img4 from "../../../public/images/pay-4.png";
 
 const FooterBottom = () => {
   return (

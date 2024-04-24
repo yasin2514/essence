@@ -1,11 +1,11 @@
 import { useKeenSlider } from "keen-slider/react";
 import "keen-slider/keen-slider.min.css";
-import img1 from "../../assets/slide-1.png";
-import img2 from "../../assets/slide-2.png";
-import img3 from "../../assets/slide-3.png";
-import img4 from "../../assets/slide-4.png";
-import img5 from "../../assets/slide-5.png";
-import img6 from "../../assets/slide-6.png";
+import img1 from "../../../public/images/slide-1.png";
+import img2 from "../../../public/images/slide-2.png";
+import img3 from "../../../public/images/slide-3.png";
+import img4 from "../../../public/images/slide-4.png";
+import img5 from "../../../public/images/slide-5.png";
+import img6 from "../../../public/images/slide-6.png";
 
 const SwipeToSlide = () => {
   const [sliderRef] = useKeenSlider({
