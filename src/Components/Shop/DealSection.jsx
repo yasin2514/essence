@@ -1,5 +1,4 @@
-import { useState } from "react";
-import data from "../../../public/data/dealProducts.json";
+import { useEffect, useState } from "react";
 import img from "../../assets/d-3.png";
 import { FaStar } from "react-icons/fa";
 import Rating from "react-rating-stars-component";
@@ -9,6 +8,12 @@ import { MdCompare } from "react-icons/md";
 import ViewProductModal from "./ViewProductModal";
 
 const DealSection = () => {
+  const [data, setData] = useState([]);
+  useEffect(() => {
+    fetch("dealProducts.json")
+      .then((res) => res.json())
+      .then((data) => setData(data));
+  }, []);
   const [showAll, setShowAll] = useState(false);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [modalData, setModalData] = useState([]);

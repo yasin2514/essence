@@ -1,8 +1,14 @@
-import data from "../../../public/data/VendorsProducts.json";
 import Rating from "react-rating-stars-component";
 import { FaStar } from "react-icons/fa";
+import { useEffect, useState } from "react";
 
 const Vendors = () => {
+  const [data, setData] = useState([]);
+  useEffect(() => {
+    fetch("VendorsProducts.json")
+      .then((res) => res.json())
+      .then((data) => setData(data));
+  }, []);
   return (
     <div className="mt-16 px-2 md:px-0">
       <h4 className="text-2xl font-semibold mb-6">Weekly Top Vendors</h4>

@@ -1,5 +1,11 @@
-import data from "../../../public/data/products.json";
+import { useEffect, useState } from "react";
 const Shop = () => {
+  const [data, setData] = useState([]);
+  useEffect(() => {
+    fetch("products.json")
+      .then((res) => res.json())
+      .then((data) => setData(data));
+  }, []);
   return (
     <div className="mt-16">
       <h4 className="text-2xl font-semibold mb-6">Shop by Department</h4>

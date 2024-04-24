@@ -1,8 +1,13 @@
-import { useState } from "react";
-import data from "../../../public/data/mostViewProducts.json";
+import { useEffect, useState } from "react";
 import Products from "./Products";
 
 const MostViewsItem = () => {
+   const [data, setData] = useState([]);
+   useEffect(() => {
+     fetch("mostViewProducts.json")
+       .then((res) => res.json())
+       .then((data) => setData(data));
+   }, []);
 
   const [currentPage, setCurrentPage] = useState(0);
   const itemsPerPage = 5;

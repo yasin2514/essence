@@ -1,6 +1,12 @@
-import data from "../../../public/data/onSellingProducts.json";
+import { useEffect, useState } from "react";
 
 const OnSelling = () => {
+  const [data, setData] = useState([]);
+  useEffect(() => {
+    fetch("onSellingProducts.json")
+      .then((res) => res.json())
+      .then((data) => setData(data));
+  }, []);
   return (
     <div className="mt-16 px-2 md:px-0">
       <h4 className="text-2xl font-semibold mb-6">On Selling Products</h4>

@@ -1,8 +1,13 @@
-import { useState } from "react";
-import data from "../../../public/data/appleProducts.json";
+import { useEffect, useState } from "react";
 import logoImg from "../../assets/slide-2.png";
 
 const ApplesProducts = () => {
+  const [data, setData] = useState([]);
+  useEffect(() => {
+    fetch("appleProducts.json")
+      .then((res) => res.json())
+      .then((data) => setData(data));
+  }, []);
   const [showAll, setShowAll] = useState(false);
   console.log({ showAll });
 
