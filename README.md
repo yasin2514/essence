@@ -4,4 +4,4 @@
 # Essence
 
 ### Live Site Link
-- (https://6628a04230be9c7844800514--voluble-cendol-5c9ebb.netlify.app/)
+- (https://662a3fb847cdd89852fa717a--zingy-melomakarona-79c736.netlify.app/)
