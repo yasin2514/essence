@@ -16,18 +16,18 @@ const Home = () => {
   return (
     <>
       <Banner></Banner>
-      <Pickup></Pickup>
-      <Shop></Shop>
-      <DealSection></DealSection>
-      <OnSelling></OnSelling>
-      <OnSellingItem></OnSellingItem>
-      <ApplesProducts></ApplesProducts>
-      <ShopAllCategories></ShopAllCategories>
-      <MostViewsItem></MostViewsItem>
-      <TopBrands></TopBrands>
-      <Vendors></Vendors>
-      <VendorsTwo></VendorsTwo>
-      <DiscoverItems></DiscoverItems>
+      {/* <Pickup></Pickup> */}
+      {/* <Shop></Shop> */}
+      {/* <DealSection></DealSection> */}
+      {/* <OnSelling></OnSelling> */}
+      {/* <OnSellingItem></OnSellingItem> */}
+      {/* <ApplesProducts></ApplesProducts> */}
+      {/* <ShopAllCategories></ShopAllCategories> */}
+      {/* <MostViewsItem></MostViewsItem> */}
+      {/* <TopBrands></TopBrands> */}
+      {/* <Vendors></Vendors> */}
+      {/* <VendorsTwo></VendorsTwo> */}
+      {/* <DiscoverItems></DiscoverItems> */}
   
     </>
   );

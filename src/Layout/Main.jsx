@@ -8,7 +8,7 @@ const Main = () => {
   return (
     <>
       <Header></Header>
-      <section className="bg-[#f1f0ee] ">
+      <section className="bg-[#f1f0ee] px-4 xl:px-0">
         <div className="max-w-screen-xl m-auto pt-4 pb-10">
           <Outlet></Outlet>
           <Footer></Footer>

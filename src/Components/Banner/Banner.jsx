@@ -72,9 +72,9 @@ const Banner = () => {
     },
   ];
   return (
-    <section className=" md:flex justify-between">
+    <section className=" md:flex flex-wrap justify-between">
       {/* left sidebar */}
-      <aside className=" p-4 space-y-4 bg-white w-full md:w-[18%]  ">
+      <aside className=" p-4 space-y-4 bg-white w-full lg:w-[18%]  ">
         {sideBar?.map((item, index) => (
           <div className="flex items-center gap-1" key={index}>
             <img src={listLogo} alt="" />
@@ -91,7 +91,7 @@ const Banner = () => {
       </aside>
 
       {/* middle */}
-      <div className="w-full md:w-[58%] ">
+      <div className="w-full lg:w-[58%] ">
         <BannerCarousel></BannerCarousel>
         <div className="bg-white p-3">
           <SwipeToSlide></SwipeToSlide>
@@ -99,7 +99,7 @@ const Banner = () => {
       </div>
 
       {/* right side bar */}
-      <aside className=" py-4 px-3 bg-white w-full md:w-[22%] text-center md:text-left">
+      <aside className=" py-4 px-3 bg-white w-full lg:w-[22%] text-center md:text-left">
         <div>
           <p>Good Afternoon, John Smith</p>
           <h5 className="text-center mt-5 text-xl font-semibold">
@@ -120,7 +120,7 @@ const Banner = () => {
               Get Now
             </span>
           </div>
-          <div className="flex flex-col md:block">
+          <div className="flex flex-col items-center lg:block">
             <img className="my-6" src={addImg} alt="" />
             <button className="btn-primary w-full">Add to Cart</button>
           </div>
