@@ -74,7 +74,7 @@ const Banner = () => {
   return (
     <section className=" md:flex flex-wrap justify-between">
       {/* left sidebar */}
-      <aside className=" p-4 space-y-4 bg-white w-full lg:w-[18%]  ">
+      <aside className=" p-4 space-y-4 md:space-y-2 xl:space-y-4 bg-white w-full lg:w-[18%]  grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:block ">
         {sideBar?.map((item, index) => (
           <div className="flex items-center gap-1" key={index}>
             <img src={listLogo} alt="" />

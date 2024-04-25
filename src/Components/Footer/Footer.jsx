@@ -1,4 +1,3 @@
-import React from "react";
 import logo from "../../../public/images/footerlogo.png";
 import googleImg from "../../../public/images/Badge.png";
 import appleImg from "../../../public/images/Badge-2.png";
@@ -7,11 +6,11 @@ import { FaXTwitter, FaLinkedin } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <div className="flex flex-col md:flex-row item-center md:justify-between mt-20 gap-y-10">
+    <div className="flex flex-col sm:flex-row flex-wrap item-center sm:justify-between mt-20 gap-y-10 sm:px-10 xl:px-0">
       {/* first section */}
-      <div className="w-full md:w-[23%] flex flex-col justify-center items-center md:block">
+      <div className="w-full sm:w-[48%] xl:w-[23%] flex flex-col justify-center items-center lg:block">
         <img src={logo} alt="logo" />
-        <div className="space-y-3 mt-5 md:pr-5 text-center md:text-left">
+        <div className="space-y-3 mt-5 md:pr-5 text-center lg:text-left">
           <p className="text-gray-700">Got Question? Call us 24/7</p>
           <p className="text-black font-bold">(+1) 84382648364</p>
           <p className="text-gray-700">
@@ -26,7 +25,7 @@ const Footer = () => {
         </div>
       </div>
       {/* second section */}
-      <div className="w-full md:w-[15%] text-center md:text-left">
+      <div className="w-full sm:w-[48%] lg:w-[15%] text-center lg:text-left">
         <h5 className="text-black font-semibold text-xl ">Company</h5>
         <div className="text-gray-700 space-y-3 mt-5">
           <p className="hover:underline cursor-pointer">About us</p>
@@ -37,7 +36,7 @@ const Footer = () => {
         </div>
       </div>
       {/* third section */}
-      <div className="w-full md:w-[15%] text-center md:text-left">
+      <div className="w-full sm:w-[48%] lg:w-[15%] text-center lg:text-left">
         <h5 className="text-black font-semibold text-xl ">My Account</h5>
         <div className="text-gray-700 space-y-3 mt-5">
           <p className="hover:underline cursor-pointer">Track My Order</p>
@@ -48,7 +47,7 @@ const Footer = () => {
         </div>
       </div>
       {/* fourth section */}
-      <div className="w-full md:w-[15%] text-center md:text-left">
+      <div className="w-full sm:w-[48%] lg:w-[15%] text-center lg:text-left">
         <h5 className="text-black font-semibold text-xl ">Customer Service</h5>
         <div className="text-gray-700 space-y-3 mt-5">
           <p className="hover:underline cursor-pointer">Payment Methods</p>
@@ -59,7 +58,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="w-full md:w-[23%] md:relative px-3 md:px-0">
+      <div className="w-full xl:w-[23%] md:relative px-3 md:px-0">
         <h5 className="text-black font-semibold text-xl text-center">
           Download app
         </h5>
@@ -73,7 +72,7 @@ const Footer = () => {
           </a>
         </div>
 
-        <div className="md:absolute w-full bottom-5 mt-5 md:mt-5">
+        <div className="xl:absolute w-full bottom-5 mt-5 md:mt-5">
           <div className="flex justify-evenly w-2/3 mx-auto">
             <a href="#" className="bg-white p-1 rounded">
               <CiFacebook className="text-2xl text-blue-600"></CiFacebook>
