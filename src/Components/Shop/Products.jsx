@@ -6,7 +6,7 @@ const Products = ({ item, noGap }) => {
   return (
     <div
       className={`${
-        noGap ? "mx-3  hover:scale-110 duration-150 h-[400px] md:h-auto " : ""
+        noGap ? "mx-3  hover:scale-110 duration-150 h-[400px] lg:h-auto " : ""
       } flex flex-col justify-center items-center pb-2 bg-white rounded-lg shadow-lg overflow-hidden `}
     >
       <img src={img} className="w-full md:w-auto" alt="" />

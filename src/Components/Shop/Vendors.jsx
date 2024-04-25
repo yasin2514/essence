@@ -12,7 +12,7 @@ const Vendors = () => {
   return (
     <div className="mt-16 px-2 md:px-0">
       <h4 className="text-2xl font-semibold mb-6">Weekly Top Vendors</h4>
-      <div className="flex flex-col md:flex-row  justify-between items-center pb-2 gap-4">
+      <div className=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 place-items-center pb-2 gap-4">
         {data?.map((item, index) => (
           // parents
           <div key={index} className="bg-white p-3">

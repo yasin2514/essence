@@ -21,13 +21,13 @@ const Home = () => {
       <DealSection></DealSection>
       <OnSelling></OnSelling>
       <OnSellingItem></OnSellingItem>
-      {/* <ApplesProducts></ApplesProducts> */}
-      {/* <ShopAllCategories></ShopAllCategories> */}
-      {/* <MostViewsItem></MostViewsItem> */}
-      {/* <TopBrands></TopBrands> */}
-      {/* <Vendors></Vendors> */}
-      {/* <VendorsTwo></VendorsTwo> */}
-      {/* <DiscoverItems></DiscoverItems> */}
+      <ApplesProducts></ApplesProducts>
+      <ShopAllCategories></ShopAllCategories>
+      <MostViewsItem></MostViewsItem>
+      <TopBrands></TopBrands>
+      <Vendors></Vendors>
+      <VendorsTwo></VendorsTwo>
+      <DiscoverItems></DiscoverItems>
   
     </>
   );

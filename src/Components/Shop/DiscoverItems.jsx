@@ -9,7 +9,6 @@ const DiscoverItems = () => {
       .then((data) => setData(data));
   }, []);
   const [showAll, setShowAll] = useState(false);
-  console.log({ showAll });
 
   return (
     <div className="mt-16 px-2 md:px-0">
@@ -35,8 +34,8 @@ const DiscoverItems = () => {
           )}
         </div>
       </div>
-      <div className="grid md:grid-cols-6 gap-4">
-        {data?.slice(!showAll ? 12 : 6, data?.length).map((item, index) => (
+      <div className="grid grid-cols-1 sm:grid-cols-2  md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 3xl:grid-cols-6 gap-8">
+        {data?.slice(!showAll ? 14 : 4, data?.length).map((item, index) => (
           <Products noGap={false} key={index} item={item}></Products>
         ))}
       </div>

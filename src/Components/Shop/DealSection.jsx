@@ -28,7 +28,7 @@ const DealSection = () => {
   return (
     <>
       <div className="mt-16 px-2 md:px-0">
-        <div className="md:flex justify-between items-center mb-6">
+        <div className="sm:flex justify-between items-center mb-6">
           <h4 className="text-2xl font-semibold ">Deal of The Day</h4>
           <div>
             {!showAll ? (
