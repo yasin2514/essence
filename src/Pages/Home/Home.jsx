@@ -16,11 +16,11 @@ const Home = () => {
   return (
     <>
       <Banner></Banner>
-      {/* <Pickup></Pickup> */}
-      {/* <Shop></Shop> */}
-      {/* <DealSection></DealSection> */}
-      {/* <OnSelling></OnSelling> */}
-      {/* <OnSellingItem></OnSellingItem> */}
+      <Pickup></Pickup>
+      <Shop></Shop>
+      <DealSection></DealSection>
+      <OnSelling></OnSelling>
+      <OnSellingItem></OnSellingItem>
       {/* <ApplesProducts></ApplesProducts> */}
       {/* <ShopAllCategories></ShopAllCategories> */}
       {/* <MostViewsItem></MostViewsItem> */}

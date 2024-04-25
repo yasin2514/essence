@@ -5,17 +5,36 @@ const OnSellingItem = () => {
   return (
     <div className="mt-16 px-2 md:px-0">
       <h4 className="text-2xl font-semibold mb-6">On Selling Products</h4>
-      <div className="md:flex justify-between">
-        <aside className="space-y-5 w-full md:w-[25%]">
-          <img src={img1} alt="selling image" />
-          <img src={img1} alt="selling image" />
+      <div className="flex flex-col xl:flex-row justify-between">
+        {/* left side */}
+        <aside className="flex flex-col space-y-5 sm:space-y-0 xl:space-y-5 sm:flex-row justify-between  xl:block w-full  xl:w-[25%]  border">
+          <img
+            src={img1}
+            className="h-full w-full sm:w-[48%] xl:h-auto xl:w-full "
+            alt="selling image"
+          />
+          <img
+            src={img1}
+            className="h-full w-full sm:w-[48%] xl:h-auto xl:w-full"
+            alt="selling image"
+          />
         </aside>
-        <main className="w-full md:w-[47%] my-3 md:my-0">
+        {/* main part */}
+        <main className="w-full my-5 sm:h-[300px] md:h-[450px] xl:h-auto xl:w-[47%] xl:my-0">
           <img className="h-full w-full" src={img2} alt="selling image" />
         </main>
-        <aside className="space-y-5 w-full md:w-[25%]">
-          <img src={img1} alt="selling image" />
-          <img src={img1} alt="selling image" />
+        {/* right side  */}
+        <aside className="flex flex-col space-y-5 sm:space-y-0 xl:space-y-5 sm:flex-row justify-between  xl:block w-full  xl:w-[25%]  border">
+          <img
+            src={img1}
+            className="h-full w-full sm:w-[48%] xl:h-auto xl:w-full "
+            alt="selling image"
+          />
+          <img
+            src={img1}
+            className="h-full w-full sm:w-[48%] xl:h-auto xl:w-full"
+            alt="selling image"
+          />
         </aside>
       </div>
     </div>

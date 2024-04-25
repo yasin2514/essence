@@ -19,27 +19,27 @@ const SwipeToSlide = () => {
   return (
     <div ref={sliderRef} className="keen-slider">
       <div className="keen-slider__slide number-slide1 flex flex-col items-center">
-        <img className="w-full lg:w-[80px]" src={img1} alt="slide-img" />
+        <img className="w-full sm:w-[100px]  lg:w-[80px]" src={img1} alt="slide-img" />
         <p className="mt-1">Brand Name</p>
       </div>
       <div className="keen-slider__slide number-slide1 flex flex-col items-center">
-        <img className="w-full lg:w-[80px]" src={img2} alt="slide-img" />
+        <img className="w-full sm:w-[100px]  lg:w-[80px]" src={img2} alt="slide-img" />
         <p className="mt-1">Brand Name</p>
       </div>
       <div className="keen-slider__slide number-slide1 flex flex-col items-center">
-        <img className="w-full lg:w-[80px]" src={img3} alt="slide-img" />
+        <img className="w-full sm:w-[100px]  lg:w-[80px]" src={img3} alt="slide-img" />
         <p className="mt-1">Brand Name</p>
       </div>
       <div className="keen-slider__slide number-slide1 flex flex-col items-center">
-        <img className="w-full lg:w-[80px]" src={img4} alt="slide-img" />
+        <img className="w-full sm:w-[100px]  lg:w-[80px]" src={img4} alt="slide-img" />
         <p className="mt-1">Brand Name</p>
       </div>
       <div className="keen-slider__slide number-slide1 flex flex-col items-center">
-        <img className="w-full lg:w-[80px]" src={img5} alt="slide-img" />
+        <img className="w-full sm:w-[100px]  lg:w-[80px]" src={img5} alt="slide-img" />
         <p className="mt-1">Brand Name</p>
       </div>
       <div className="keen-slider__slide number-slide1 flex flex-col items-center">
-        <img className="w-full lg:w-[80px]" src={img6} alt="slide-img" />
+        <img className="w-full sm:w-[100px]  lg:w-[80px]" src={img6} alt="slide-img" />
         <p className="mt-1">Brand Name</p>
       </div>
     </div>

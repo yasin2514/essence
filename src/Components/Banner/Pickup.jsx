@@ -24,7 +24,7 @@ const Pickup = () => {
     },
   ];
   return (
-    <div className="grid md:grid-cols-4 gap-4 mt-5 px-2 md:px-0">
+    <div className="grid md:grid-cols-2 lg:grid-cols-4  gap-4 mt-5 px-2 md:px-0">
       {items?.map((item, index) => (
         <div
           key={index}

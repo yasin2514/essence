@@ -48,18 +48,18 @@ const DealSection = () => {
             )}
           </div>
         </div>
-        <div className="grid md:grid-cols-2 gap-6 ">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 place-items-center ">
           {/* card-section */}
           {data?.slice(0, showAll ? data?.length : 2).map((item, index) => (
             <div
               key={index}
-              className="flex flex-col md:flex-row gap-3 justify-between items-start bg-white p-4"
+              className="flex flex-col md:w-auto lg:flex-row gap-3 justify-between items-start bg-white p-4 h-full"
             >
-              <div className="w-full md:w-[49%] h-full">
-                <img src={item?.img} alt="img" className="w-100 h-[100%]" />
+              <div className="w-full flex justify-center items-center lg:w-[49%] h-full">
+                <img src={item?.img} alt="img" className="w-full h-[100%]" />
               </div>
               {/* card-description */}
-              <div className="w-full md:w-[49%] space-y-2">
+              <div className="w-full lg:w-[49%] space-y-2">
                 <h5 className="font-bold text-xl">{item?.name}</h5>
                 <div className="flex items-center gap-2">
                   <Rating
